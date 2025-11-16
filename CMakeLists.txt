@@ -9,6 +9,7 @@ add_executable(showip
         src/showip.c
 )
 
-add_executable(example
-        src/example.c
+add_executable(simple_server
+        src/simple_server.c
 )
+
