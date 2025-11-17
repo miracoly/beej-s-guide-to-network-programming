@@ -13,3 +13,6 @@ add_executable(simple_server
         src/simple_server.c
 )
 
+add_executable(simple_client
+        src/simple_client.c
+)
