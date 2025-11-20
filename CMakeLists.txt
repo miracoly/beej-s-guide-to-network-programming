@@ -5,14 +5,7 @@ set(CMAKE_C_STANDARD 11)
 set(CMAKE_C_STANDARD_REQUIRED ON)
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
-add_executable(showip
-        src/showip.c
-)
-
-add_executable(simple_server
-        src/simple_server.c
-)
-
-add_executable(simple_client
-        src/simple_client.c
-)
+add_executable(showip src/showip.c)
+add_executable(simple_server src/simple_server.c)
+add_executable(simple_client src/simple_client.c)
+add_executable(datagram_server src/datagram_server.c)
