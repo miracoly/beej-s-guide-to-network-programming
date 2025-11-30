@@ -9,13 +9,9 @@ tasks:
     silent: true
   build:
     deps: [configure]
-    sources:
-      - src/**/*.c
     cmds:
       - cmake --build build
   configure:
-    sources:
-      - CMakeLists.txt
     cmds:
       - cmake -S . -G Ninja -B build
   clean:
